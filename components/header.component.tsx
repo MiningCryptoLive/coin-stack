@@ -14,7 +14,7 @@ const Header: React.FC = () => {
       <div className={styles["header__icon-container"]}>
         <Link href="/">
           <a>
-            <img src="/icons/stackandname.svg" alt="logo" />
+            <img src="/icons/stack.svg" alt="logo" />
           </a>
         </Link>
       </div>
