@@ -9,31 +9,12 @@ const Footer: React.FC = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/KarahanGuner"
+            href="https://github.com/MiningCryptoLive"
           >
             My GitHub
           </a>
         </div>
-        <div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.karahanguner.com/"
-          >
-            Personal Website
-          </a>
-        </div>
-
-        <div>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/karahan-g%C3%BCner-9b4b221a0/"
-          >
-            My LinkedIn
-          </a>
-        </div>
-        <div>Email: kkarahanguner@gmail.com</div>
+        <div>My Email: celldr69@gmail.com</div>
       </div>
       <div className={styles["footer__coingecko-container"]}>
         Data provided by&nbsp;
