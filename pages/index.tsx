@@ -22,20 +22,11 @@ const Home: NextPage<IProps> = ({data, marketData}) => {
   return (
     <div >
       <Head>
-        <title>CRYPTO.SOLOPOOL.PRO</title>
+        <title>Coinstack</title>
         <meta name="description" content="Cryptocurrency prices, market caps, volumes and charts. Historical data for Bitcoin, Ethereum and many more coins." />
         <link rel="icon" href="/stack.svg" />
       </Head>
       <Header/>
-      <div className={styles["marketstats-container"]}>
-        <div className={styles.marketstats}>
-          <div>
-            <h1><center>Track Crypto</center></h1>h1>
-            <h1><center>Inform Yourself &</center></h1>
-            <h1><center>Succeed.</center></h1>
-          </div>
-          </div>
-          <div>
       <div className={styles["marketstats-container"]}>
         <div className={styles.marketstats}>
           <div>
