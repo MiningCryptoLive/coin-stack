@@ -27,13 +27,13 @@ const Home: NextPage<IProps> = ({data, marketData}) => {
         <link rel="icon" href="/stack.svg" />
       </Head>
       <Header/>
-      <div>
-        <center><h2>Track Crypto <br /> Inform Yourself & <br /> Succeed.</h2></center>
+      <div className={utils["text-align-center"]}>
+        <h2>Track Crypto <br /> Inform Yourself & <br /> Succeed.</h2>
         </div>
-      <div>
-        <center><h3>An Ultimate Crypto Price Tracker. <br /> Stay Informed, Stay Ahead.</h3></center>
-        <center><h4>Top 100 Coins By Market Cap</h4></center>
-        <center><p>Use the search icon at the top of the page <br /> to search for your coin of choice.</p></center>
+      <div className={utils["text-align-center"]}>
+        <h3>An Ultimate Crypto Price Tracker. <br /> Stay Informed, Stay Ahead.</h3>
+        <h4>Top 100 Coins By Market Cap</h4>
+        <p>Use the search icon at the top of the page <br /> to search for your coin of choice.</p>
       </div>
       <div className={styles["marketstats-container"]}>
         <div className={styles.marketstats}>
