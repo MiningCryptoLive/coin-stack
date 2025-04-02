@@ -36,13 +36,14 @@ const Home: NextPage<IProps> = ({data, marketData}) => {
       <div className={styles["marketstats-container"]}>
         <div className={styles.marketstats}>
           <div>
-            <div className={utils["text-align-center"]}>Market Cap</div> 
+            <div className={utils["text-align-center"]}>Crypto Market Cap</div> 
             <div>{marketData.total_market_cap.usd.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0})}</div>
           </div>
           <div>
             <div className={utils["text-align-center"]}>24h Volume</div>
             <div>{marketData.total_volume.usd.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0})}</div>
           </div>
+          <div><center>Top 100 Coins By Market Cap</center></div>
         </div>
       </div>
       <div className={styles["table-container"]}>
