@@ -45,8 +45,8 @@ const Home: NextPage<IProps> = ({data, marketData}) => {
           </div>
         </div>
       </div>
-      <div><center>Top 100 Coins By Market Cap</center></div>
       <div className={styles["table-container"]}>
+        <div><center>Top 100 Coins By Market Cap</center></div>
         <CoinsTable data={data}/>
       </div>
       <Footer/>
