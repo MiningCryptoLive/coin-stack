@@ -34,6 +34,7 @@ const Home: NextPage<IProps> = ({data, marketData}) => {
             <h1><center>Inform Yourself &</center></h1>
             <h1><center>Succeed.</center></h1>
           </div>
+          </div>
           <div>
       <div className={styles["marketstats-container"]}>
         <div className={styles.marketstats}>
