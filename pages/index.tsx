@@ -31,7 +31,8 @@ const Home: NextPage<IProps> = ({data, marketData}) => {
         <center><h2>Track Crypto <br /> Inform Yourself & <br /> Succeed.</h2></center>
         </div>
       <div>
-        <center><h3>An Ultimate Crypto Price Tracker. <br /> Stay Informed, Stay Ahead.<br /> Top 100 Coins By Market Cap Listed</h3></center>
+        <center><h3>An Ultimate Crypto Price Tracker. <br /> Stay Informed, Stay Ahead.</h3></center>
+        <center><h4>Top 100 Coins By Market Cap</h4></center>
       </div>
       <div className={styles["marketstats-container"]}>
         <div className={styles.marketstats}>
